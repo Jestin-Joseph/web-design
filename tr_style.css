@@ -1,0 +1,257 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    max-width: 100;
+    overflow-x: hidden;
+}
+
+header{
+    height: 100vh;
+    width: 100vw;
+    margin-bottom: 50px;
+   
+    
+    
+}
+nav{ 
+  
+   margin: 0 auto;
+   width: 90%; 
+   text-align: center;
+   padding: 30px 0px 30px 0px;
+  
+}
+nav a{
+    text-decoration: none;
+    color: #800020;
+    font-size: 20px;
+    letter-spacing: 2px; 
+}
+nav a:hover{
+    text-decoration: underline;
+    
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    list-style: none;
+}
+.Head{
+    margin: 0 auto;
+    background-image: url(train.jpg);
+    background-size: cover;
+   background-position: center;
+    background-color: grey;
+    height: 90%;
+    width: 90%;
+    text-align: center;
+    background-blend-mode: multiply ;
+   
+}
+.Head h1{
+    padding-top: 100px;   
+ 
+    color: aliceblue;
+    font-size: 100px;
+    font-family: 'Ms Madi', cursive;
+ 
+
+}
+.Head p{
+    
+   
+   position: relative;
+   top: -30px;
+   left: 200px;
+   font-size: 15px ;
+    color: white;
+    letter-spacing: 5px;
+}
+
+
+.sec-title{
+    
+    color: #800020;
+    font-family: 'Ms Madi', cursive;
+    font-size: 50px;
+    text-decoration: underline;
+}
+.abt{
+    height: 80vh;
+    width: 90vw;
+   
+    margin: 0 auto;
+  
+}
+.container{
+    width: 95%;
+    height: ;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+.box1{
+  
+    width: 75%;
+    height: 400px;
+    font-size: 18px;
+    padding-top: 50px;
+    text-align: justify;
+    color: palevioletred;
+    
+ 
+   
+}
+.box2{
+  
+    width: 45%;
+    height: 400PX;
+    margin-left: 20px;
+    background-image: url(map.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    
+  
+}
+.dest{
+    
+    width: 100vw;
+    margin: 0 auto;
+    
+
+}
+.txt{
+    width: 90vw;
+   
+    margin: 0 auto;
+
+}
+.img-grid{
+  
+    width: 100%;
+   
+}
+.row1, .row2, .row3{
+    display: flex;
+    flex-direction: row;
+    
+    width: 90%;
+   
+    margin: 0 auto;
+}
+#img{
+   
+    width: 400px;
+    margin: 20px;
+    height: 350px;
+
+}
+.img1{
+    background-image: url(desert.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.img2{
+    background-image: url(dino.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.img3{
+    background-image: url(burj.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.img4{
+    background-image: url(baloons.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.img5{
+    background-image: url(basic.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.img6{
+    background-image: url(jack.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.img7{
+    background-image: url(river.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img8{
+    background-image: url(flight.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img9{
+    background-image: url(train.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.pkg{
+    width: 100vw;
+    height: 80vh;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.pkg-row{
+    width: 90vw;
+    height: 300px;
+    
+    margin: 60px auto;
+    display: flex;
+    flex-direction: row;
+
+}
+.pkg1, .pkg2, .pkg3{
+    width: 400px;
+    
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+    font-family: 'Reem Kufi Ink', sans-serif;;
+    
+}
+.pkg1{
+    background-image: url(paris.jpg);
+    background-size: cover;
+    background-color: grey;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+.pkg2{
+    background-image: url(delhi.jpg);
+    background-size: cover;
+    background-color: grey;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+.pkg3{
+    background-image: url(italy.jpg);
+    background-size: cover;
+    background-color: grey;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+#pkgd:hover{
+    background-blend-mode: normal;
+    
+}
+footer{
+    width: 100vw;
+    height: 50vh;
+    background-color: #800020;
+    color: white;
+    text-align: center;
+    font-family: 'Ms Madi', cursive;
+    font-size: 50px;
+    text-decoration: underline;
+    padding-top: 50px;
+}
